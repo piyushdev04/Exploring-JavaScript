@@ -13,12 +13,28 @@
 
 // const ans = sum(1,2, displayResultPassive);
 
-function calArth(a,b,arthFinalFn){
-    const ans = arthFinalFn(a,b)
-    return ans;
+// function calArth(a,b,arthFinalFn){
+//     const ans = arthFinalFn(a,b)
+//     return ans;
+// }
+// function sum(a,b){
+//     return a+b;
+// }
+// const value = calArth(5,5,sum);
+// console.log(value);
+
+function square(a){
+    return a * a
 }
-function sum(a,b){
-    return a+b;
+
+function cube(a){
+    return a * a * a
 }
-const value = calArth(5,5,sum);
-console.log(value);
+
+function calOfSomething(a,b,fn){
+    const val1 = fn(a);
+    const val2 = fn(b);
+    return val1 + val2;
+}
+
+console.log(calOfSomething(1,2,cube))
