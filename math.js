@@ -17,13 +17,13 @@ function mathMethods(value) {
     console.log("After max():", maxValue);
 
     let minValue = Math.min(5, 10, 15);
-  console.log("After min():", minValue);
+    console.log("After min():", minValue);
 
-  let powerOfTwo = Math.pow(value, 2);
-  console.log("After pow():", powerOfTwo);
+    let powerOfTwo = Math.pow(value, 2);
+    console.log("After pow():", powerOfTwo);
 
-  let squareRoot = Math.sqrt(value);
-  console.log("After sqrt():", squareRoot);
+    let squareRoot = Math.sqrt(value);
+    console.log("After sqrt():", squareRoot);
 }
 
 // Example Usage for Math Methods
