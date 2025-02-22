@@ -1,4 +1,7 @@
-// Strings: String is a sequence of characters used to represent text
+/*
+    Strings: String is a sequence of characters used to represent text
+    string -> immutable
+*/
 
 let str = "BATMAN!"; // created string
 console.log(str); // printed string in console
