@@ -1,3 +1,5 @@
+// Loops: iterable (strings, objects, arrays)
+
 // for Loop
 
 // Print 1 to 5
