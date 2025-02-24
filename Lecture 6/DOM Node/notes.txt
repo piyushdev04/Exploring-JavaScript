@@ -1,0 +1,14 @@
+* DOM Tree Structure:
+  The DOM Tree consists of different types of nodes, including:
+
+
+    - Types of Nodes:
+     1. Element Nodes -> Represent HTML elements (e.g., <div>, <p>, <h1>)
+     2. Text Nodes -> Represent text inside elements
+     3. Comment Nodes -> Represent comments (<!-- This is a comment -->)
+     4. Document Node -> Repersents the entire HTML document
+
+    - Understanding DOM Nodes:
+     1. firstChild: Returns the first child node of an element (could be an element, text, or comment node).
+     2. lastChild: Returns the last child node of an element.
+     3. childNodes: Returns a NodeList of all child nodes (including text, comments, and elements).
