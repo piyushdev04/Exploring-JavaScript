@@ -1,0 +1,42 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    margin: 40px;
+}
+
+button {
+    padding: 10px 20px;
+    margin: 10px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+#clickBtn {
+    background-color: #28a745;
+    color: white;
+}
+
+#dblClickBtn {
+    background-color: #007bff;
+    color: white;
+}
+
+#removeClick {
+    background-color: #dc3545;
+    color: white;
+}
+
+input {
+    padding: 8px;
+    font-size: 16px;
+    margin: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+#mousePosition {
+    font-weight: bold;
+    color: #ff5733;
+}
