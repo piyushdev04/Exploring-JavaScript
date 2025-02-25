@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Playground</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>DOM Manipulation Playground</h1>
+        <div id="mainBox" class="box" data-info="original">Main Box</div>
+
+        <div class="button-container">
+            <button onclick="modifyAttributes()">Modify Attributes</button>
+            <button onclick="changeStyle()">Change Style</button>
+            <button onclick="addElements()">Add Elements</button>
+            <button onclick="removeElement()">Remove Element</button>
+            <button onclick="resetPlayground()">Reset</button>
+        </div>
+
+        <div id="extraElements"></div>
+
+        <div class="console" id="consoleOutput">
+            <div class="console-message">// Console output will appear here</div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
