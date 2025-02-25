@@ -1,0 +1,145 @@
+body {
+    font-family: 'Arial', sans-serif;
+    text-align: center;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 20px;
+    color: #333;
+}
+
+.container {
+    max-width: 800px;
+    margin: auto;
+    background-color: white;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+    color: #333;
+    margin-bottom: 25px;
+    position: relative;
+    display: inline-block;
+}
+
+h1::after {
+    content: '';
+    position: absolute;
+    bottom: -10px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 100px;
+    height: 3px;
+    background: linear-gradient(90deg, #007bff, #00c6ff);
+    border-radius: 3px;
+}
+
+#extraElements {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 15px;
+    margin-top: 30px;
+    transition: all 0.3s ease;
+}
+
+.box {
+    width: 300px;
+    height: 100px;
+    line-height: 100px;
+    border: 2px solid #333;
+    text-align: center;
+    font-weight: bold;
+    font-size: 18px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: all 0.3s ease;
+}
+
+.box:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
+}
+
+.button-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:  center;
+    gap: 15px;
+    margin-top: 30px;
+}
+
+button {
+    background: linear-gradient(145deg, #007bff, #0069d9);
+    color: white;
+    border: none;
+    padding: 12px 20px;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: all 0.3s;
+    font-size: 16px;
+    font-weight: 600;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+button:hover {
+    background: linear-gradient(145deg, #0056b3, #004494);
+    transform: translateY(-2px);
+    box-shadow: 0 6px 8px rgba(0, 0, 0, 0.15);
+}
+
+button:active {
+    transform: translateY(0);
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.console {
+    margin-top: 30px;
+    background-color: #2d2d2d;
+    color: #fff;
+    padding: 15px;
+    border-radius: 8px;
+    text-align: left;
+    font-family: 'Consolas', 'Monaco', monospace;
+    max-height: 200px;
+    overflow-y: auto;
+}
+
+.console-message {
+    margin: 5px 0;
+    padding: 3px 0;
+}
+
+.info {
+    color: #87cefa;
+}
+
+.success {
+    color: #90ee90;
+}
+
+.warning {
+    color: #ffd700;
+}
+
+.error {
+    color: #ffa07a;
+}
+
+.modified {
+    background-color: #e6f7ff !important;
+    border-color: #1890ff !important;
+    color: #1890ff;
+}
+
+/* Animation for new elements */
+@keyframes fadeIn {
+    from { opacity: 0; transform: translateY(20px);}
+    to { opacity: 1; transform: translateY(0);}
+}
+
+.new-element {
+    animation: fadeIn 0.5s ease forwards;
+}
