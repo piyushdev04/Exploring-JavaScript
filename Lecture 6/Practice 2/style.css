@@ -1,0 +1,12 @@
+.original {
+    color: purple;
+    font-size: 20px;
+    text-align: center;
+}
+
+.newClass {
+    background-color: plum;
+    font-weight: bold;
+    padding: 10px;
+    border: 2px solid black;
+}
